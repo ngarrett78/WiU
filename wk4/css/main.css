@@ -892,13 +892,6 @@ and (min-width : 1224px) {
 	
 #lists h3{
 	font-weight:500; }
-	
-.videoWrapper {
-	position: relative;
-	padding-bottom: 25%; 
-	padding-top: 25px;
-	height: 0;
-}
 
 }
 
