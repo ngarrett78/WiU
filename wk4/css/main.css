@@ -226,14 +226,18 @@ img.box {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .gallery {
 	overflow: hidden;
-	padding-bottom: 5%;}
+	padding: 2%; }
    
 .box {
    float: left;
    position: relative;
    width: 20%;
-   padding-bottom: 20%;
-}
+   padding-bottom: 20%; }
+
+.box:hover { 
+-moz-box-shadow: 0 0 10px #ccc; 
+-webkit-box-shadow: 0 0 10px #ccc; 
+box-shadow: 0 0 10px #ccc; }
 
 .boxInner {
    position: absolute;
@@ -247,11 +251,12 @@ img.box {
    width: 100%;
 }
 .boxInner .titleBox {
+   font-size: .750em;
    position: absolute;
    bottom: 0;
    left: 0;
    right: 0;
-   margin-bottom: -50px;
+   margin-bottom: -5px;
    background: #000;
    background: rgba(0, 0, 0, 0.5);
    color: #FFF;
@@ -384,38 +389,38 @@ table {
 	only screen and (max-width: 760px),
 	(min-device-width: 768px) and (max-device-width: 1024px)  {
 	
-		/* Force table to not be like tables anymore */
-		table, thead, tbody, th, td, tr { 
-			display: block;
+		
+table, thead, tbody, th, td, tr { 
+	display: block;
 			
 		}
 		
-		/* Hide table headers (but not display: none;, for accessibility) */
-		thead tr { 
-			position: absolute;
-			top: -9999px;
-			left: -9999px;
+		
+thead tr { 
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 		}
 		
-		tr { border: 1px solid #ccc; }
+tr { 
+border: 1px solid #ccc; }
 		
-		td { 
-			/* Behave  like a "row" */
-			border: none;
-			border-bottom: 1px solid #eee; 
-			position: relative;
-			padding-left: 5%; 
+td { 
+			
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+	padding-left: 5%; 
 		}
 		
-		td:before { 
-			/* Now like a table header */
-			position: absolute;
-			/* Top/left values mimic padding */
-			top: 6px;
-			left: 6px;
-			width: 45%; 
-			padding-right: 10px; 
-			white-space: nowrap;
+td:before { 
+			
+	position: absolute;		
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
 		}	
 	}
 
@@ -759,6 +764,8 @@ button:hover {
 	-ms-transform: rotate(4deg) scale(0.879) skew(-9deg) translate(0px);
 	}
 
+/* Media Queries  
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media only screen and (max-device-width: 480px) {
 
 fieldset {
@@ -779,8 +786,7 @@ fieldset:before {
 
 }
 
-/* Media Queries  
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media (max-width: 600px) {
