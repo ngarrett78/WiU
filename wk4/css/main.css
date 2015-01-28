@@ -790,7 +790,8 @@ header > h1 {
 	
 .btn {
   width: 80%;
-  font-size:1em; }
+  font-size:1em;
+  margin-bottom: 2%; }
   
 .one-half {
   width: 100%; 
