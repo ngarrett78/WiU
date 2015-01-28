@@ -827,6 +827,12 @@ margin-bottom: 100px; }
 button {
 	width:100%; }
 	
+td {
+	padding-left:5%; }
+
+table {
+	width:99%; }
+	
 .gallery {
 padding-bottom: 25%;
 }	
