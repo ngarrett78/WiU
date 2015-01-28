@@ -384,8 +384,8 @@ table {
 	
 		/* Force table to not be like tables anymore */
 		table, thead, tbody, th, td, tr { 
-			display: block
-			width:99%;; 
+			display: block;
+			
 		}
 		
 		/* Hide table headers (but not display: none;, for accessibility) */
@@ -789,7 +789,7 @@ header > h1 {
 	line-height:1.5em; }
 	
 .btn {
-  width: 100%;
+  width: 80%;
   font-size:1em; }
   
 .one-half {
