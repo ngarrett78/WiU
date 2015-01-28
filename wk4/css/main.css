@@ -211,7 +211,8 @@ img.cen {
 	
 img.box {
 	width: 50%;
-	float:right; }
+	float:right;
+	padding-bottom:0px;  }
 
 @media screen and (orientation: portrait) {
   img.cen { max-width: 90%; }
@@ -231,7 +232,9 @@ img.box {
    float: left;
    position: relative;
    width: 20%;
+   padding-bottom: 20%;
 }
+
 .boxInner {
    position: absolute;
    left: 10px;
