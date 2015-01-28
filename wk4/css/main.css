@@ -384,7 +384,8 @@ table {
 	
 		/* Force table to not be like tables anymore */
 		table, thead, tbody, th, td, tr { 
-			display: block; 
+			display: block
+			width:99%;; 
 		}
 		
 		/* Hide table headers (but not display: none;, for accessibility) */
@@ -401,7 +402,7 @@ table {
 			border: none;
 			border-bottom: 1px solid #eee; 
 			position: relative;
-			padding-left: 50%; 
+			padding-left: 5%; 
 		}
 		
 		td:before { 
