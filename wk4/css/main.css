@@ -798,6 +798,10 @@ header > h1 {
 	font-size:2em;
 	line-height:1.5em; }
 	
+.container {
+padding-top: 18%;
+}
+	
 .btn {
   width: 80%;
   font-size:1em;
@@ -857,13 +861,7 @@ padding-bottom: 25%;
 /* fixes issue with intro header and h1 title ----- */
 @media (min-width: 900px) and (max-width:1300px) {
 	header > .intro-image > h1 {
-	text-align: center;
-	font-size: 3em;
-	line-height: 1.5;
-	color: #fff;
 	padding-top: 10%;
-	width: 100%;
-	margin-bottom: 0px;
 }
 }
 
