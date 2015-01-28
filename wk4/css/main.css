@@ -231,7 +231,6 @@ img.box {
    float: left;
    position: relative;
    width: 20%;
-   padding-bottom: 20%;
 }
 .boxInner {
    position: absolute;
@@ -425,7 +424,8 @@ table {
   display: block;
   margin: auto;
   text-align: center;
-  clear: both }
+  clear: both;
+  margin-bottom: 2%; }
 
 .btn {
   background: #c20a50;
@@ -791,7 +791,7 @@ header > h1 {
 .btn {
   width: 80%;
   font-size:1em;
-  margin-bottom: 2%; }
+   }
   
 .one-half {
   width: 100%; 
