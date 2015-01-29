@@ -325,7 +325,7 @@ header > .intro-image > h1 {
 header > .intro-image > h3 { 	
 	text-align:center;
 	font-size:2em;
-	line-height:1.5;
+	line-height:1;
 	color:#fff;		
 	margin-top: 0px; }
 
@@ -791,8 +791,7 @@ fieldset:before {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media (max-width: 600px) {
-header {
-  max-height: 400px; }
+
  
 header > h1 {
 	font-size:2em;
