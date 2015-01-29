@@ -562,6 +562,7 @@ input[type=text],input[type=password],input[type=submit],input[type=email],input
 	font-size: 1.25em;
 	color: #FFD98D;
 	margin: 0 auto;
+	line-height: 1.5;
 }
   
 #myform legend { /* hack for IE */
@@ -804,6 +805,8 @@ padding-top: 18%;
 .btn {
   width: 80%;
   font-size:1em;
+  line-height: 1;
+  padding: 5%;
    }
   
 .one-half {
